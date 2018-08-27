@@ -10,7 +10,7 @@
 			float s = sqrt(p*(p-l1)*(p-l2)*(p-l3));
 			return s;
 		}	
-/*\\\\\\\\\\\\\\\\*Function for count*\\\\\\\\\\\\\\\\\\\\\\*/
+/*\\\\\\\\\\\\\\\\*Function for count*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 		bool is_in(Triangle A, float D_x, float D_y){
 			float AD = Other_LineLength(D_x,D_y,A.GetA_X(),A.GetA_Y());
 			float BD = Other_LineLength(D_x,D_y,A.GetB_X(),A.GetB_Y());
